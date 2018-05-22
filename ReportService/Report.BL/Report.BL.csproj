@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Report.Data\Report.Data.csproj" />
+    <ProjectReference Include="..\Report.Model\Report.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MonthNameResolver">
+      <HintPath>Libs\MonthNameResolver.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="MonthNameResolver.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+
+</Project>
