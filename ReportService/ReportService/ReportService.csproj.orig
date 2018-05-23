@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+=======
 <Project Sdk="Microsoft.NET.Sdk.Web">
+>>>>>>> test/master
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
@@ -10,9 +14,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <PackageReference Include="Dapper" Version="1.50.5" />
     <PackageReference Include="json-serialize" Version="1.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
+=======
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.4" />
+    <PackageReference Include="Facebook" Version="7.0.6" />
+    <PackageReference Include="iTextSharp" Version="5.5.13" />
+    <PackageReference Include="json-serialize" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AppCenter.Push" Version="1.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
+    <PackageReference Include="MySql.Data" Version="6.10.6" />
+>>>>>>> test/master
     <PackageReference Include="Npgsql" Version="3.2.6" />
   </ItemGroup>
 
@@ -21,10 +39,17 @@
   </ItemGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <ProjectReference Include="..\Report.BL\Report.BL.csproj">
       <Private>true</Private>
     </ProjectReference>
     <ProjectReference Include="..\Report.Model\Report.Model.csproj" />
+=======
+    <Reference Include="MonthNameResolver">
+      <HintPath>MonthResolver\MonthNameResolver.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+>>>>>>> test/master
   </ItemGroup>
 
 </Project>

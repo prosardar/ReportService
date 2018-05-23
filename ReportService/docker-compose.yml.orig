@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  reportservice:
+    image: reportservice
+    build:
+<<<<<<< HEAD
+      context: ./ReportService
+=======
+      context: .
+>>>>>>> test/master
+      dockerfile: ReportService/Dockerfile
